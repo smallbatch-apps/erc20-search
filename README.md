@@ -16,8 +16,10 @@ UI styling is handled with TailwindCSS.
 
 An environment variable called `REACT_APP_PROVIDER_URL` is required. This will need to be a working provider URL for something like Alchemy or Infura. This can most easily be done by creating a `.env` file.
 
-A demo example is available online.
+A demo example is [available online](https://teal-gumdrop-3ed238.netlify.app/).
 
 ## Missing Features
 
 Application is missing some crucial features around robustness and error handling. For example it checks that the requested address is a smart contract, but it does not check that the contract is a valid ERC20. This may trigger errors if invalid addresses are used.
+
+Sorting is very simplistic, only sorting by block number. It would be ideal to have it possible to sort by a few different fields.
