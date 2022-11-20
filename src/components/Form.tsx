@@ -20,9 +20,6 @@ type Props = {
   dispatch: Dispatch<Action>;
 };
 
-// USDC 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
-// My Address 0xC6E2d39C3fcB5dCf6067194E79164Fdda30e81ef
-
 export const Form: FC<Props> = ({ state, dispatch }) => {
   const [address, setAddress] = useState("");
   const [ercAddress, setErcAddress] = useState("");
